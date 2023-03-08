@@ -1,0 +1,22 @@
+class program{
+    void colocaSiNoEsCero (n) {
+
+       if ( iszero(n) ) {
+
+          pickbeeper();
+
+       }
+
+       else {
+       iterate(n){
+        putbeeper();
+        }
+       }
+
+    }
+program(){
+    colocaSiNoEsCero(4);
+    }
+   }
+
+
