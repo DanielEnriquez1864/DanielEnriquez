@@ -1,0 +1,39 @@
+class program {
+void turnright(){
+	iterate(3){
+    	turnleft();
+   }
+}
+
+void pick(){
+    	if(frontIsBlocked)
+        {
+        	turnleft();
+            move();
+            turnright();
+            move();
+            turnright();
+            move();
+            turnright();
+            pickbeeper();
+       }
+}
+void return1(){
+	if(frontIsBlocked)
+    {
+    	turnright();
+        move();
+        turnleft();
+        move();
+        turnleft();
+        move();
+        turnright();
+        putbeeper();
+   }
+}
+    program () {
+	pick();
+    return1();
+        turnoff();
+    }
+}

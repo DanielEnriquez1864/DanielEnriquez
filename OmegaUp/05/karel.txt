@@ -1,0 +1,11 @@
+class program {
+void avanza10(){
+	iterate(10){
+    	move();
+   }
+}
+    program () {
+        avanza10();
+        turnoff();
+    }
+}

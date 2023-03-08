@@ -1,0 +1,20 @@
+class program {
+void turnright(){
+	iterate(3){
+    	turnleft();
+    }
+}
+void casa(){
+   	iterate(3){
+   		move();
+    }
+    turnright();
+    iterate(3){
+   		move();
+    }
+}
+    program () {
+        casa();
+        turnoff();
+    }
+}
