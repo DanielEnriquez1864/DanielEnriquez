@@ -1,0 +1,11 @@
+.img {
+	display: block;
+	width: 200px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
+.input {
+	border-radius: 18px;
+	display: block;
+}
